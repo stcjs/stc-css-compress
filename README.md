@@ -23,7 +23,7 @@ stc.workflow({
 
 ## options
 
-default options is 
+default options is:
 
 ```
 {
