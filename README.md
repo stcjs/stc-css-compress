@@ -13,7 +13,7 @@ npm install stc-css-compress
 ```js
 // stc.config.js
 
-var cssCompress = require('stc-css-compress);
+var cssCompress = require('stc-css-compress');
 
 stc.workflow({
   cssCompress: {plugin: cssCompress, include: /\.css$/, options: {}}
