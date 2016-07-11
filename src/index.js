@@ -40,6 +40,12 @@ export default class CssCompressPlugin extends Plugin {
     this.setAst(ast);
   }
   /**
+   * default include
+   */
+  static include(){
+    return /\.css$/i;
+  }
+  /**
    * use cluster
    */
   static cluster(){
