@@ -49,7 +49,7 @@ export default class CssCompressPlugin extends Plugin {
    * use cluster
    */
   static cluster(){
-    return true;
+    return false;
   }
   /**
    * use cache
